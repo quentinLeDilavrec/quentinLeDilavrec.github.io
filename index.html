@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Personal website of Quentin Le Dilavrec</title>
+    <meta name="description" content="Page-specific description">
+    <meta name="keywords" content="Page-specific keywords">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="static/css/screen.min.css">
+    <link rel="stylesheet" href="static/css/custom.min.css">
+    <script src="static/js/head.min.js"></script>
+  </head>
+  <body>
+    <!-- Header-->
+    <header class="main-header">
+      <div class="first-nav">
+        <div class="container">
+          <nav class="first-nav__links">
+            <ul>
+              <li><a class="is-selected">English</a></li>
+            </ul>
+          </nav><a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a>
+        </div>
+      </div>
+      <div class="second-nav js-nav is-closed">
+        <div class="container"><a class="second-nav__logo"><span>QLD</span></a>
+          <nav class="menu">
+            <ul>
+              <li><a class="js-link js-anchor" href="#home">Home</a></li>
+              <li><a class="js-link js-anchor" href="#about">About</a></li>
+              <li><a class="js-link js-anchor" href="#projects">Projects</a></li>
+              <li><a class="js-link js-anchor" href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Home section-->
+    <section class="home-section" id="home">
+      <div class="home-section__bg"></div>
+      <div class="home-section__overlay">
+        <div class="container">
+          <header class="home-section__header">
+            <h1>Quentin Le Dilavrec</h1>
+	    <h2>PostDoc at <i>INRIA Lille</i></h2>
+          </header>
+        </div>
+      </div>
+    </section>
+    <!-- About section-->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-card">
+          <header class="about-card__header">
+            <h2>About me</h2>
+	    <!--<h4>I am a 4th year college student in computer science, at ENS Rennes and ISTIC</h4>-->
+	    <h4>I am a Postdoc at <i>INRIA Lille</i>, in the <i>Spirals</i> team.</h4>
+          </header>
+          <div class="about-card__info">
+            <p>I am working on software maintenance and source code histories.</p>
+	    <p>My Phd was supervised by Djamel Eddine Khelladi, Arnaud Blouin and Jean-Marc Jézéquel.</p>
+	    <p>Afterward I worked as a postdoc under Andy Zaidman at TUDelft in the TestShift project for 2 years.</p>
+            <!--<p>I started taking interest in computer science without noticing it, by getting old computers but without access to internet, so I needed to figures out things myself, and so on and so forth I started programing and and learning about it.</p>
+	    <p>Besides computer science, I have, as far as I can remember always been making plastic arts. I like to experiment and create things that comes to my mind. I also love playing handball that I practice since 11.</p>-->
+            <p class="about-card__info-status"><span>Current status:</span> Postdoc</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Publication section-->
+    <section class="common-section" id="publications">
+        <header class="common-section__header">
+            <h2>Publications</h2>
+            <p><a href="https://scholar.google.com/citations?hl=en&amp;user=wo4b1CgAAAAJ">google scholar</a></p>
+        </header>
+        <ul class="services services_advisory"style="width: fit-content;margin-left: auto;margin-right: auto;float: none;">
+            <!--
+            <li class="services__item icon icon_time submitted">
+		<p>Note: use "unpublished" to decrypt the pdf</p>
+            </li>
+	    -->
+            <li class="services__item icon icon_time">
+                <h4><a href="https://inria.hal.science/hal-04189855">HyperDiff: Computing Source Code Semantic Diffs at Scale</a></h4>
+		<p>Quentin Le Dilavrec, Djamel Eddine Khelladi, Arnaud Blouin, Jean-Marc Jézéquel</p>
+		<p>ESEC/FSE 2023 - 31st ACM Conference on the Foundations of Software Engineering, Dec 2023, San Francisco (CA, USA), United States</p>
+	    </li>
+            <li class="services__item icon icon_conf">
+                <h4><a href="https://hal.science/hal-03764541v1">HyperAST: Enabling Efficient Analysis of Software Histories at Scale </a></h4>
+		<p>Quentin Le Dilavrec, Djamel Eddine Khelladi, Arnaud Blouin, Jean-Marc Jézéquel</p>
+		<p>ASE 2022 - 37th IEEE/ACM International Conference on Automated Software Engineering, Oct 2022, Oakland, United States</p>
+		<p><strong>[Distinguished Paper Award]</strong></p>
+		<p style="filter: opacity(70%)">Note: I am currently working on a journal extension.</p>
+	    </li>
+	    <li class="services__item icon icon_conf">
+                <h4><a href="https://hal.science/hal-03340174v2">Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions</a></h4>
+		<p>Quentin Le Dilavrec, Djamel Eddine Khelladi, Arnaud Blouin, Jean-Marc Jézéquel</p>
+		<p>ICMSE'21 - 37th International Conference on Software Maintenance and Evolution, Sep 2021, Virtual Event, Luxembourg</p>
+		<p style="filter: opacity(70%)">Note: I am planning a rework using the HyperAST.</p>
+	    </li>
+	</ul>
+    </section>
+
+
+    <!-- Teaching section-->
+    <section class="common-section" id="teaching">
+        <header class="common-section__header">
+            <h2>Teaching</h2>
+        </header>
+	<style>
+		#teaching li {
+			margin: 10px;
+		}
+	</style>
+        <ul class="" style="width: fit-content;margin-left: auto;margin-right: auto;float: none;list-style-type: none;">
+            <li class="" style="margin: 20px">
+                <h3>2020 – 2021: INSA</h3>
+                <h4>Object oriented conception : 12h practical works</h4>
+                <h4>DevOps : 14h tutorial classes</h4>
+                <h4>Software Quality: 24h practical works</h4>
+                <h4>Databases and web development : 14h practical works</h4>
+	    </li>
+            <li class="" style="margin: 20px">
+                <h3>2021 – 2022: INSA</h3>
+                <h4>Databases and web development : 24h practical works</h4>
+	    </li>
+            <li class="" style="margin: 20px">
+                <h3>2022 – 2023: ISTIC</h3>
+                <h4>Group project using the HyperAST (8 students) : 20h practical works</h4>
+	    </li>
+	</ul>
+    </section>
+
+    <!-- Software section-->
+    <section class="common-section" id="software">
+        <header class="common-section__header">
+            <h2>Software Artefacts</h2>
+            <p><a href="https://github.com/quentinLeDilavrec">github</a></p>
+        </header>
+	<style>
+		#software li {
+			margin: 10px;
+		}
+		#software h4 {
+			margin: 10px;
+		}
+	</style>
+        <ul class="" style="width: fit-content;margin-left: auto;margin-right: auto;float: none;list-style-type: none;">
+            <li class="" style="margin: 20px">
+                <h3>Repositories related to the HyperAST and HyperDiff</h3>
+                <h4><a href="https://github.com/quentinLeDilavrec/HyperAST">Main Repository</a>
+			<p style="margin-left: 20px;">(contains the benchmarks, the core library, parsers and reference analysis)</p></h4>
+                <h4><a href="https://github.com/quentinLeDilavrec/ASE2022">Reproduction package for ASE 2022</a></h4>
+                <h4><a href="https://github.com/quentinLeDilavrec/FSE23">Reproduction package for FSE 2023</a></h4>
+		<h4><a href="https://github.com/quentinLeDilavrec/refsolver">Def-use computation using Spoon</a>
+			<p style="margin-left: 20px;">(used for the evaluation)</p></h4>
+	    </li>
+            <li class="" style="margin: 20px">
+                <h3>Repositories related to mining co-evolutions</h3>
+		<h4><a href="https://github.com/quentinLeDilavrec/java-tests-coevolution">Main repository</a>
+		<p style="margin-left: 20px;">(contains the benchmark and the library)</h4>
+                <h4><a href="https://github.com/quentinLeDilavrec/ICSME2021">Reproduction package for ICSME 2021</a></h4>
+                <h4><a href="https://github.com/quentinLeDilavrec/impact-miner">Impact analysis using Spoon</a></h4>
+                <h4><a href="https://github.com/quentinLeDilavrec/astexplorer">Visualization of possible co-evolutions</a></h4>
+	    </li>
+	</ul>
+    </section>
+    <!-- Projects section-->
+    <section class="common-section" id="projects">
+      <header class="common-section__header">
+        <h2>Other Projects</h2>
+        <p>Some projects of mine</p>
+      </header>
+      <div class="projects-wrap">
+        <div class="grid-container">
+          <div class="projects">
+            <figure class="projects__item"><img src="static/images/projects/1.png" alt="penrose's paving">
+              <figcaption><a class="icon icon_link" href="https://github.com/quentinLeDilavrec/Penrose" rel="nofollow">penrose's paving</a></figcaption>
+            </figure>
+            <figure class="projects__item"><img src="static/images/projects/2.jpg" alt="figurine painting">
+              <figcaption><a class="icon icon_link" href="#2" rel="nofollow">figurine painting</a></figcaption>
+            </figure>
+            <figure class="projects__item"><img src="static/images/projects/3.jpg" alt="3D modeling">
+              <figcaption><a class="icon icon_link" href="#3" rel="nofollow">3D modeling</a></figcaption>
+            </figure>
+            <figure class="projects__item"><img src="static/images/projects/4.jpg" alt="sculpting the earth">
+              <figcaption><a class="icon icon_link" href="#4" rel="nofollow">sculpting the earth</a></figcaption>
+            </figure>
+            <figure class="projects__item"><img src="static/images/projects/5.png" alt="collatz conjecture | cyracuse suite">
+              <figcaption><a class="icon icon_link" href="https://github.com/quentinLeDilavrec/Collatz" rel="nofollow">collatz conjecture | cyracuse suite</a></figcaption>
+            </figure>
+            <figure class="projects__item"><img src="static/images/projects/6.png" alt="collatz3d">
+              <figcaption><a class="icon icon_link" href="https://github.com/quentinLeDilavrec/Collatz3d" rel="nofollow">collatz3d</a></figcaption>
+            </figure>
+            <figure class="projects__item"><img src="static/images/projects/7.jpg" alt="wikiparser | db">
+              <figcaption><a class="icon icon_link" href="https://github.com/quentinLeDilavrec/WikiParser" rel="nofollow">wikiparser | db</a></figcaption>
+            </figure>
+            <figure class="projects__item"><img src="static/images/projects/8.jpg" alt="photo">
+              <figcaption><a class="icon icon_link" href="#8" rel="nofollow">photo</a></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contacts section-->
+    <div class="contacts-section" id="contacts">
+      <div class="container">
+        <section class="contact-card">
+          <header class="contact-card__header">
+            <h2>Contact information</h2>
+          </header>
+          <div class="contact-info">
+            <div class="contact-info__logo"></div>
+            <div class="contact-info__group">
+              <div class="contact-info__additional">
+                <p>Feel free to contact me via an email</p>
+              </div>
+              <div class="contact-info__vcard vcard">
+                <h4 class="fn org">Quentin Le Dilavrec</h4>
+                <p class="role title">PostDoc in TestShift Project, SERG, TUDelft</p>
+                <p class="icon icon_location"><a class="adr js-anchor" href="https://www.diverse-team.fr/"><span class="country-name">France</span>,&nbsp;<span class="locality">Delft, NetherLands</span></a></p>
+                <p class="icon icon_mail"><a class="email" href="(qledilavrec[at]tudelft.nl|quentin.le-dilavrec[at]ens-rennes.fr|quentin.ledilavrec[at]etudiant.univ-rennes1.fr)">quentin.le-dilavrec[at](ens-rennes.fr|irisa).fr</a></p>
+              </div>
+              <ul class="contact-info__social">
+	      <!--<li><a class="icon icon_in" rel="nofollow">My Linkedin profile</a></li>-->
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="gmap" id="gmap"></div>
+    </div>
+    <!-- Footer-->
+    <footer class="main-footer">
+      <div class="container">
+        <p class="main-footer__copyright">&copy;&nbsp;<span>Quentin Le Dilavrec</span></p><a class="main-footer__gotop icon icon_gotop js-anchor" href="#home">To top!</a>
+        <p class="main-footer__links">Designed by&nbsp;<a href="http://orlovmax.com">Maxim Orlov</a>&nbsp;then modified by <strong>Quentin Le Dilavrec</strong></p>
+      </div>
+    </footer>
+    <script src="static/js/body.min.js"></script>
+  </body>
+</html>
